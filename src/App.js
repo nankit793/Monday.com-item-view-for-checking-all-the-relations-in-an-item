@@ -21,7 +21,7 @@ const App = () => {
   useEffect(() => {
     if (boardDetails) {
       monday.setToken(
-        "eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjI5MjYxMjk4MSwiYWFpIjoxMSwidWlkIjo1MDk2MjQ4OSwiaWFkIjoiMjAyMy0xMC0zMFQwODozOTo0My4zMThaIiwicGVyIjoibWU6d3JpdGUiLCJhY3RpZCI6MTk1NTI3NjYsInJnbiI6ImFwc2UyIn0.wTsnOscLGIRfh5YtKUoOeRjS7SJGT5woI3lkoJNvhvU"
+        "your token"
       );
       monday
         .api(
